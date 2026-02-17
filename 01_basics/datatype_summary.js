@@ -38,4 +38,32 @@ let myFunction = function(){
 
 console.log(typeof myFunction);
 
+//++++++++++++++++++++++++++++Memory 
+
+let myName = "Mayuri";
+
+let anotherName = myName;
+
+//anotherName = "Harshal";
+myName = "Harshal";
+
+console.log(myName);
+
+console.log(anotherName);
+
+let userOne = {
+    email : "omkar@rtac.in",
+    pass : "Test@123"
+};
+
+let userTwo = userOne;
+
+userTwo = {
+    email : "komal@rtac.in",
+    pass : "Pass@123"
+}
+console.log(userOne);
+console.log(userTwo);
+
+
 
