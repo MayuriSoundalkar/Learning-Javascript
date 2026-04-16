@@ -49,6 +49,21 @@ console.log(Object.entries(jsuser));
 
 console.log(user[0].hasOwnProperty('name'));
 
+const courseInfo = {
+    name : "JS in hindi",
+    price : "999",
+    teacher : "Hitesh"
+};
+
+console.log(courseInfo.teacher);
+
+const {teacher : Instructor } = courseInfo
+const {name : channelName} = courseInfo;
+console.log(Instructor);
+console.log(channelName);
+
+
+
 
 
 
